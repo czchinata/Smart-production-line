@@ -1,0 +1,60 @@
+{
+  "features": [
+    "temperature",
+    "pressure",
+    "flow_rate",
+    "spindle_speed",
+    "feed_rate",
+    "vibration",
+    "motor_current",
+    "motor_voltage",
+    "bearing_temperature",
+    "tool_wear",
+    "equipment_load",
+    "cycle_time",
+    "buffer_level",
+    "material_inventory",
+    "conveyor_speed",
+    "agv_delay",
+    "queue_length",
+    "station_output",
+    "defect_rate",
+    "energy_consumption",
+    "oee",
+    "line_takt",
+    "downtime",
+    "throughput"
+  ],
+  "state_names": {
+    "process": [
+      "正常",
+      "工艺漂移",
+      "温度异常",
+      "质量风险"
+    ],
+    "equipment": [
+      "正常",
+      "磨损",
+      "过载",
+      "故障"
+    ],
+    "logistics": [
+      "正常",
+      "缺料",
+      "堵塞",
+      "AGV延迟"
+    ],
+    "line": [
+      "正常",
+      "低效",
+      "瓶颈",
+      "停线"
+    ]
+  },
+  "seq_len": 64,
+  "d_model": 128,
+  "heads": 8,
+  "layers": 3,
+  "best_epoch": 7,
+  "validation_mean_accuracy": 0.9998309668695065
+}

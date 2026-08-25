@@ -1,0 +1,14 @@
+﻿equipment_id,equipment_type,equipment_name,manufacturer,install_date,rated_power_kw,status
+aspherical_grinding_01,aspherical_grinding,非球面数控铣磨机,synthetic,2022-01-01,21.86,active
+aspherical_grinding_02,aspherical_grinding,非球面数控铣磨机,synthetic,2022-01-01,43.18,active
+aspherical_polishing_01,aspherical_polishing,非球面数控抛光机,synthetic,2022-01-01,35.08,active
+aspherical_polishing_02,aspherical_polishing,非球面数控抛光机,synthetic,2022-01-01,30.15,active
+ion_beam_polisher_01,ion_beam_polisher,离子束抛光机,synthetic,2022-01-01,13.77,active
+magnetorheological_polisher_01,magnetorheological_polisher,磁流变抛光机,synthetic,2022-01-01,13.77,active
+diamond_turning_01,diamond_turning,单点金刚石车床,synthetic,2022-01-01,10.15,active
+diamond_turning_02,diamond_turning,单点金刚石车床,synthetic,2022-01-01,40.05,active
+grinding_polishing_01,grinding_polishing,研磨抛光机,synthetic,2022-01-01,30.24,active
+grinding_polishing_02,grinding_polishing,研磨抛光机,synthetic,2022-01-01,34.2,active
+vacuum_coater_01,vacuum_coater,真空镀膜机,synthetic,2022-01-01,8.76,active
+cleaning_01,cleaning,清洗机,synthetic,2022-01-01,43.89,active
+cleaning_02,cleaning,清洗机,synthetic,2022-01-01,38.8,active

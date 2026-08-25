@@ -1,0 +1,11 @@
+训练指令：
+python production_transformer.py train `
+  --samples 30000 `
+  --seq-len 64 `
+  --epochs 15 `
+  --output output
+
+预测指令：
+python production_transformer.py predict `
+  --csv ".\output\simulation_data.csv" `
+  --model-dir output
